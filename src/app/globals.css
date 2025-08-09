@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background-rgb: 0, 0, 0; /* Black */
+  --foreground-rgb: 255, 215, 0; /* Gold */
+}
+
 body {
-  @apply bg-black text-gold;
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
 }
