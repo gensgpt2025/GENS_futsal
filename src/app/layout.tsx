@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Orbitron } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const orbitron = Orbitron({ subsets: ["latin"] });
+const garamond = EB_Garamond({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "GENS ICHIHARA futsal official",
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={orbitron.className}>
+      <body className={garamond.className}>
         <Header />
         <main>{children}</main>
         <Footer />
