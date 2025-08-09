@@ -32,7 +32,7 @@ const dummySchedule = [
 const SchedulePage = () => {
   return (
     <div className="container mx-auto p-8">
-      <h1 className="text-4xl font-bold text-gold mb-8 text-center [text-shadow:0_0_8px_rgba(255,215,0,0.8)]">Schedule & Results</h1>
+      <h1 className="text-4xl font-bold text-gold mb-8 text-center [text-shadow:0_0_8px_rgba(255,248,231,0.9)]">Schedule & Results</h1>
       <div className="overflow-x-auto">
         <table className="min-w-full bg-black border border-gold/30">
           <thead>

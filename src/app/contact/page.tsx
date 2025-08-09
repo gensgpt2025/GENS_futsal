@@ -3,7 +3,7 @@
 const ContactPage = () => {
   return (
     <div className="container mx-auto p-8 max-w-2xl">
-      <h1 className="text-4xl font-bold text-gold mb-8 text-center [text-shadow:0_0_8px_rgba(255,215,0,0.8)]">Contact Us</h1>
+      <h1 className="text-4xl font-bold text-gold mb-8 text-center [text-shadow:0_0_8px_rgba(255,248,231,0.9)]">Contact Us</h1>
       <form
         onSubmit={(e) => {
           e.preventDefault();

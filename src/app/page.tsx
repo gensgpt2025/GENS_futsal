@@ -5,17 +5,11 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center text-center">
       {/* Hero Section */}
       <div className="flex flex-col items-center gap-8 py-20">
-        <Image
-          src="/Logos/Logo-GENS-primary.svg"
-          alt="GENS ICHIHARA Logo"
-          width={400}
-          height={400}
-          priority
-        />
-        <h1 className="text-5xl font-bold text-gold [text-shadow:0_0_8px_rgba(255,215,0,0.8)] animate-pulse">
+        
+        <h1 className="text-[100px] leading-tight font-bold text-gold [text-shadow:0_0_20px_rgba(255,248,231,0.9)] animate-pulse">
           GENS ICHIHARA
         </h1>
-        <p className="text-xl text-gray-300">Futsal Official Website</p>
+        <p className="text-[6rem] text-gold [text-shadow:0_0_20px_rgba(255,248,231,0.9)]">Futsal Official Website</p>
       </div>
 
       {/* Content Sections */}

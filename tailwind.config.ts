@@ -10,9 +10,10 @@ const config: Config = {
     extend: {
       colors: {
         gold: "#FFD700",
+        "light-gold": "#FFF8E7",
       },
       boxShadow: {
-        neon: "0 0 5px theme('colors.gold'), 0 0 10px theme('colors.gold'), 0 0 20px theme('colors.gold'), 0 0 40px theme('colors.gold')",
+        neon: "0 0 8px theme('colors.light-gold'), 0 0 20px theme('colors.light-gold')",
       },
     },
   },

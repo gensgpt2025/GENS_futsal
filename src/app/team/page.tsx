@@ -34,7 +34,7 @@ const dummyPlayers = [
 const TeamPage = () => {
   return (
     <div className="container mx-auto p-8">
-      <h1 className="text-4xl font-bold text-gold mb-8 text-center [text-shadow:0_0_8px_rgba(255,215,0,0.8)]">Team</h1>
+      <h1 className="text-4xl font-bold text-gold mb-8 text-center [text-shadow:0_0_8px_rgba(255,248,231,0.9)]">Team</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {dummyPlayers.map((player) => (
           <div key={player.id} className="border border-gold/30 rounded-lg overflow-hidden transition-all duration-300 hover:border-gold hover:shadow-neon text-center">

@@ -24,7 +24,7 @@ const dummyNews = [
 const NewsPage = () => {
   return (
     <div className="container mx-auto p-8">
-      <h1 className="text-4xl font-bold text-gold mb-8 text-center [text-shadow:0_0_8px_rgba(255,215,0,0.8)]">News</h1>
+      <h1 className="text-4xl font-bold text-gold mb-8 text-center [text-shadow:0_0_8px_rgba(255,248,231,0.9)]">News</h1>
       <div className="space-y-8">
         {dummyNews.map((article) => (
           <div key={article.id} className="p-6 border border-gold/30 rounded-lg transition-all duration-300 hover:border-gold hover:shadow-neon">
